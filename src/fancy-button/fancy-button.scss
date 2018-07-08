@@ -1,0 +1,31 @@
+@import '../styles/partials/variables';
+
+$red: #e74c3c;
+
+button.button {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid $red;
+  border-radius: 0.6em;
+  color: $red;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: $font-size-base;
+  font-family: sans-serif;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-base;
+  margin: 10px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  &:hover, &:focus {
+    box-shadow: 0 0 40px 40px $red inset;
+    color: $white;
+    outline: 0;
+  }
+}

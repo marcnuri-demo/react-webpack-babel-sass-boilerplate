@@ -1,0 +1,33 @@
+// Colors
+$white:                   #fff !default;
+$gray-100:                #f8f9fa !default;
+$gray-200:                #e9ecef !default;
+$gray-300:                #dee2e6 !default;
+$gray-400:                #ced4da !default;
+$gray-500:                #adb5bd !default;
+$gray-600:                #6c757d !default;
+$gray-700:                #495057 !default;
+$gray-800:                #343a40 !default;
+$gray-900:                #212529 !default;
+$black:                   #000 !default;
+
+// Typography
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:          1rem !default; // Assumes the browser default, typically `16px`
+
+$line-height-base:        1.5 !default;
+
+$font-weight-light:       300 !default;
+$font-weight-normal:      400 !default;
+$font-weight-strong:      500 !default;
+$font-weight-bold:        700 !default;
+
+$font-weight-base:        $font-weight-normal !default;
+
+// Main Styles
+$body-bg:                 $white !default;
+$text-color:              $gray-900 !default;
