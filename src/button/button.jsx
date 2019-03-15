@@ -1,13 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import styles from './button.scss'
 
-class Button extends Component {
-
-  render() {
-    return (
-        <button className={styles.button}>{this.props.label}</button>
-    );
-  }
-}
+const Button = ({label}) => (
+  <button className={styles.button}>{label}</button>
+);
 
 export default Button;
