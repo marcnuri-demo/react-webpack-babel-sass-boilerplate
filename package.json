@@ -1,6 +1,6 @@
 {
   "name": "react-webpack-babel-sass-boilerplate",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Boilerplate React application with Webpack, Babel and Sass.",
   "main": "index.js",
   "scripts": {
